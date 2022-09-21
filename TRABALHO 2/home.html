@@ -1,0 +1,173 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrigo de Animais</title>
+
+    <style>
+
+
+
+    #topo{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 150px;
+      background: rgb(248, 186, 92);
+      padding-top: 25px;
+  }
+  
+  ul{
+      
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+  
+  #topo ul{
+      margin-top: 30px;
+      border: 1px solid black;
+      float: left;
+  
+  }
+  
+  #topo ul li{
+      float: left;
+     
+  }
+  
+  #topo ul a{
+      border: 1px solid black;
+      font-size: 0.9em;
+      padding: 0.5em 2.1em;
+      display: block;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      
+  }
+  
+  #topo ul a:hover{
+      color: rgb(255, 1, 1);
+  
+  
+  }
+  
+  .titulo{
+      display: flex;
+      justify-content: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  footer {
+      position: absolute;
+      bottom: 0;
+      background-color: rgb(248, 186, 92);
+      color: rgb(5, 0, 0);
+      width: 100%;
+      height: 100px;    
+      text-align: center;
+      line-height: 100px;
+  }
+  
+  .box {
+	margin-top: 100px;
+	display: flex;
+   justify-content: space-between;
+   
+
+  }
+
+  @media (max-width: 380px) { 
+    #topo{
+        flex-direction: column;
+    }
+
+    .titulo{
+        margin: 5px 0 5px 0;
+        width: 100%;
+    }
+}
+
+
+@media(max-width:600px) {
+    #navegacao{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 900px){
+    .texto{
+        background: linear-gradient(to right, blue, green,);
+        width: 40%;
+        margin: 5px;
+        border-radius: 10px;
+        box-shadow: 100px;
+        min-height: 100px;
+
+    }
+
+    @media(max-width: 900px){ 
+        .box{
+            flex-direction: column;
+        }
+
+    }
+
+}
+
+</style>
+
+</head>
+<body>
+
+    
+    <div id="topo">
+
+      <div class="titulo" >  <h1 class="logo">ABRIGO DE ANIMAIS</h1></div>
+        
+        <ul id="navegacao">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="sobrenos.html">SOBRE NÓS</a></li>
+            <li><a href="voluntariado.html">VOLUNTARIADO</a></li>
+            <li><a href="comoajudar.html">COMO AJUDAR?</a></li>
+            <li><a href="animais.html">NOSSOS ANIMAIS</a></li>
+            <li><a href="#">FORMULÁRIO DE ADOÇÃO</a></li>
+              
+
+            <div style="clear: both;"></div> 
+            
+        </ul>
+
+       
+       
+
+    </div>
+
+    <div class="box">
+      <div class="texto" >  <img src="/imagens/home1.webp" alt=""> <p> O Abrigo de Animais é uma associação sem finalidade lucrativa, composta 100% por trabalho voluntário, que tem por finalidade sediar um abrigo de animais. O ABDA atua sem qualquer apoio governamental ou político.</p>  </div>
+
+      <div class="texto" >   <img src="/imagens/home2.webp" alt="">  <p> Todos os animais estão disponíveis tanto para adoção quanto para apadrinhamento. São mais de 100 animais no abrigo, dentre cães e gatos, e mais outros em lares temporários.</p> </div>
+        
+      <div class="texto" >   <img src="/imagens/home3.webp" alt="">  <p>Toda ajuda é indispensável e essencial para a continuidade do projeto. Você pode ajudar o ABDA por meio de depósito bancário, PicPay, boleto bancário, cartão de crédito ou doação de produtos (remédios, rações, jornais, etc.). Também é possível ajudar tornando-se voluntário ou apadrinhando um animal</p>  </div>
+        
+
+    </div> 
+  
+    
+
+   
+    
+
+    
+
+
+
+    
+    
+</body>
+</html>
